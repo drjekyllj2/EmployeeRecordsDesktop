@@ -46,7 +46,7 @@ namespace EmployeeRecordsDesktop
             
 
 
-            InsertData.Execute( Constant.AddNewStatusStoredProc,"@statusid",txtstatus.Text);
+            InsertData.Execute( Constant.AddNewStatusStoredProc, "@Status", txtstatus.Text);
 
 
            
